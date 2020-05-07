@@ -1,7 +1,12 @@
-source plugins.vim
-source settings.vim
-source plugin-confs/all_confs.vim
-source keymaps.vim
+let g:my_path = $HOME . "\\AppData\\Local\\nvim\\"
+function RunScript(path)
+  execute 'source ' g:my_path . fnameescape(a:path)
+endfunction
+
+call RunScript('settings.vim')
+call RunScript('plugins.vim')
+call RunScript('plugin-confs/all_confs.vim')
+call RunScript('keymaps.vim')
 
 au! BufWritePost $MYVIMRC source %
 

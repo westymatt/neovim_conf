@@ -1,5 +1,5 @@
-source plugin-confs/airline.vim
-source plugin-confs/fzf.vim
-source plugin-confs/nerdtree.vim
-source plugin-confs/ale.vim
-source plugin-confs/lsp.vim
+call RunScript('plugin-confs/airline.vim')
+call RunScript('plugin-confs/fzf.vim')
+call RunScript('plugin-confs/nerdtree.vim')
+call RunScript('plugin-confs/ale.vim')
+call RunScript('plugin-confs/lsp.vim')

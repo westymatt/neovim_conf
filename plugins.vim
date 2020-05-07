@@ -15,7 +15,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'TroyFletcher/vim-colors-synthwave'
+Plug 'mr-ubik/vim-hackerman-syntax'
 Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'othree/yajs.vim'

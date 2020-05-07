@@ -1,0 +1,40 @@
+set nocompatible
+set number
+set backspace=indent,eol,start
+set history=1000
+set showcmd
+set showmode
+set visualbell
+set autoread
+set nowrap
+set encoding=utf-8
+set ruler
+set mouse=a
+set splitbelow
+set splitright
+set t_Co=256
+set conceallevel=0
+set laststatus=0
+set cursorline
+set background=dark
+set hidden
+set updatetime=300
+"set timeoutlen=100
+set clipboard+=unnamedplus
+set noswapfile
+set nobackup
+set nowb
+set autoindent
+set smartindent
+set smarttab
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
+set expandtab
+set list
+
+if (has("termguicolors"))
+  set termguicolors
+endif
+
+syntax enable

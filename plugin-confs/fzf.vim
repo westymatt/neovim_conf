@@ -13,4 +13,8 @@ let $FZF_DEFAULT_OPTS = "--layout=reverse --info=inline"
 let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --glob "!.git/**"'
 
 nnoremap <Leader>f :FZF<ENTER>
+nnoremap <Leader>F :FZF ~<ENTER>
+nnoremap <Leader>a :Ag<ENTER>
+nnoremap <Leader>l :BLines<ENTER>
+nnoremap <Leader>L :Lines<ENTER>
 nnoremap <Leader>b :Buffers<ENTER>

@@ -1,4 +1,4 @@
-let g:my_path = $HOME . "/.config/nvim/"
+let g:my_path = $HOME . "\\AppData\\Local\\nvim\\"
 function RunScript(path)
   execute 'source ' g:my_path . fnameescape(a:path)
 endfunction

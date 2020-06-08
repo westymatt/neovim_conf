@@ -1,4 +1,6 @@
 call plug#begin('~/AppData/Local/nvim/plugins')
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'sheerun/vim-polyglot'
 Plug 'unblevable/quick-scope'
 Plug 'tpope/vim-sensible'
 Plug 'editorconfig/editorconfig'
@@ -13,6 +15,7 @@ Plug 'shougo/deoplete.nvim', { 'do': ':updateRemotePlugins' }
 Plug 'shougo/deoplete-lsp'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'bling/vim-bufferline'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'

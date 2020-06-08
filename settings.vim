@@ -38,3 +38,4 @@ if (has("termguicolors"))
 endif
 
 syntax enable
+colorscheme nachtleben

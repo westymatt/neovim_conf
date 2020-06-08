@@ -1,5 +1,7 @@
 call RunScript('plugin-confs/airline.vim')
 call RunScript('plugin-confs/fzf.vim')
+call RunScript('plugin-confs/coc.vim')
+call RunScript('plugin-confs/colorizer.vim')
 "call RunScript('plugin-confs/denite.vim')
 call RunScript('plugin-confs/nerdcommenter.vim')
 call RunScript('plugin-confs/nerdtree.vim')

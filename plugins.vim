@@ -1,4 +1,5 @@
 call plug#begin('~/AppData/Local/nvim/plugins')
+Plug 'mhinz/vim-signify'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'sheerun/vim-polyglot'
 Plug 'unblevable/quick-scope'
